@@ -1,0 +1,153 @@
+/*
+		Helper classes
+*/
+
+.cl:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*
+		Grid
+*/
+
+body { margin: 0; }
+
+.container {
+	outline: 2px dashed green;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #ccc;
+}
+
+.row { margin: 0 -10px; }
+
+.col {
+	outline: 2px dashed red;
+	padding: 0 10px;
+	float: left;
+}
+
+.col2 { width: 140px; }
+
+.col3 { width: 220px; }
+
+.col4 { width: 300px; }
+
+.col5 { width: 380px; }
+
+.col6 { width: 460px; }
+
+.col8 { width: 620px; }
+
+.col9 { width: 700px; }
+
+.col-offset1 { margin-left: 80px; }
+
+.col-offset3 { margin-left: 240px; }
+
+.page-header { margin-bottom: 56px; }
+
+.logo {
+	outline: 2px dashed black;
+	width: 368px;
+	margin: 0 auto;
+}
+
+.features-row { margin-bottom: 86px; }
+
+.index-content {
+	outline: 2px dashed yellow;
+	margin: 0 auto;
+	margin-bottom: 34px;
+	padding-top: 56px;
+	padding-bottom: 54px;
+}
+
+.breadcrumbs { margin-bottom: 60px; }
+
+.page-banner { margin-bottom: 73px; }
+
+.price-content { margin-bottom: 68px; }
+
+.item { margin-bottom: 47px; }
+
+.gallery-big, .gallery-small {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.gallery-big li { 
+	display: none;
+	margin-bottom: 14px; 
+}
+
+.gallery-big li.gallery-big-active { display: block; }
+
+.gallery-small { font-size: 0; }
+
+.gallery-small li { 
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.gallery-small li:last-child { margin-right: 0; }
+
+.catalog { 
+	margin-bottom: 47px;
+	font-size: 0; 
+}
+
+.catalog-item { 
+	outline: 1px dashed green;
+	display: inline-block;
+	vertical-align: top;
+	width: 220px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.catalog-item:nth-child(3n) { margin-right: 0; }
+
+.pagination { font-size: 14px; }
+
+/* 
+		Fonts
+*/
+
+body {
+	font-family: "Verdana", serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.title {
+	font-family: "Verdana", serif;
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.content-column-title {
+	font-family: "Verdana", serif;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.catalog-item-title {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: none;
+}
+
+
